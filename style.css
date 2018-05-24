@@ -1,0 +1,205 @@
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.about {
+  padding-bottom: 0px;
+}
+
+.about h1 {
+  position: relative;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  top:2px;
+}
+
+.about h4 {
+  position: relative;
+  margin-top: 0px;
+  padding: 15px 15px;
+  top: 2px;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 17px;
+  font-style: italic;
+  position: relative;
+  border-left: none;
+  margin-bottom: 0px;
+  padding: 5px 5px;
+}
+
+blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 60px;
+  position: absolute;
+  left: -20px;
+  top: -15px;
+  color: #7a7a7a;
+}
+
+.btn {
+  padding: 8px 50px;
+}
+
+.container-fluid {
+  background:
+      /* top, transparent red, faked with gradient */
+      linear-gradient(
+        rgba(22, 52, 99, 0.80),
+        rgba(22, 52, 99, 0.80)
+      ),
+      /* bottom, image */
+      url("../web assets/cross-2.jpeg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 150px;
+}
+
+.discover {
+  padding: 20px 20px;
+  background-color: rgb(224, 224, 224);
+  text-align: center;
+  position: relative;
+}
+
+.discover ol {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.discover h1 {
+  font-weight: bold;
+}
+
+.header {
+  color: white;
+  text-align: center;
+}
+
+.header h1 {
+  font-weight: bold;
+}
+
+.faith-desc {
+  text-align: center;
+  padding: 30px;
+}
+
+.faith-desc h1 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+@media screen and (max-width: 450px) {
+  #ann {
+    width: 100%;
+  }
+
+  #paul {
+      width: 75%;
+      position: relative;
+      left: 30px;
+  }
+
+  #elyse {
+    background-size: cover;
+    width: 100%;
+  }
+
+  #matt {
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 451px) and (max-width: 991px) {
+  #paul {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #ann {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    display: block;
+  }
+
+  .panel-body {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #prod-url {
+    width: 100%;
+  }
+
+  .container-fluid {
+    width: 100%;
+  }
+
+  .prod-desc {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+
+  .testimonial {
+    width: 70%;
+  }
+}
+
+.panel-body {
+  padding-right: 30px;
+}
+.price {
+  text-align: center;
+  background-color: rgb(214, 214, 214);
+  padding: 10px 10px;
+}
+
+.price h1 {
+  font-weight: bold;
+}
+
+.prod-desc {
+  text-align: center;
+  background-color: rgb(224, 224, 224);
+}
+
+.prod-desc h1 {
+  font-weight: bold;
+}
+
+.purchase {
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.purchase h1 {
+  font-weight:bold;
+}
+
+.testimonial {
+  padding: 10px 10px;
+  padding-top: 25px;
+  width: 100%;
+  background-color: rgb(224, 224, 224);
+}
+
+.video {
+  text-align: center;
+}
+
+.video h1 {
+  font-weight: bold;
+}
