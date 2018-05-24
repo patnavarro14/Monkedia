@@ -64,7 +64,7 @@ blockquote:before {
         rgba(22, 52, 99, 0.80)
       ),
       /* bottom, image */
-      url("../web assets/cross-2.jpeg");
+      url("cross-2.jpeg");
 
   background-position: center;
   background-repeat: no-repeat;
