@@ -56,6 +56,17 @@ blockquote:before {
   padding: 8px 50px;
 }
 
+.footer {
+  background-color: rgb(22, 52, 99);
+}
+
+.footer p {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
 .header {
   background:
       /* top, transparent red, faked with gradient */
@@ -69,8 +80,15 @@ blockquote:before {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
   padding: 150px;
+}
+
+.header img {
+  position: absolute;
+  left: 50px;
+  top: 30px;
 }
 
 .discover {
@@ -175,6 +193,33 @@ color: #fff;
   font-weight: bold;
 }
 
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 17px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #prod-url {
+    width: 100%;
+  }
+
+  .container-fluid {
+    width: 100%;
+  }
+
+  .prod-desc {
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 450px) {
   #ann {
@@ -216,23 +261,9 @@ color: #fff;
   }
 }
 
-@media screen and (max-width: 320px) {
-  #prod-url {
-    width: 100%;
-  }
-
-  .container-fluid {
-    width: 100%;
-  }
-
-  .prod-desc {
-    width: 100%;
-  }
-}
-
-
 @media screen and (max-width: 768px) {
   .testimonial {
-    width: 80%;
+    width: 100%;
   }
 }
+
